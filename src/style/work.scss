@@ -1,0 +1,116 @@
+@import "./global.scss";
+
+.work {
+  .work__title {
+    margin-bottom: 40px;
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-align: center;
+
+    @media screen and (max-width: 769px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  .work__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .work__item {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 30px 5vw;
+
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      &:nth-child(1),
+      &:nth-child(3) {
+        padding-left: 0;
+        flex-direction: column-reverse;
+      }
+
+      &:nth-child(2),
+      &:nth-child(4) {
+        padding-right: 0;
+        border-right: 0;
+      }
+
+      .work__item__img-wrapper {
+        width: 100%;
+        // height: 35vw;
+        height: fit-content;
+        overflow: hidden;
+        position: relative;
+        background: black;
+
+        .work__item__img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          // position: absolute;
+          // bottom: 0;
+          // left: 0;
+          // will-change: transform;
+        }
+      }
+
+      .work__item__text-wrapper {
+        .work__item__title {
+          margin-bottom: 2rem;
+          font-size: 3.2em;
+          font-weight: 600;
+          line-height: 1;
+        }
+
+        .work__item__links {
+          margin-bottom: 3rem;
+          display: flex;
+          gap: 1rem;
+
+          a {
+            display: block;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.3);
+            text-transform: uppercase;
+          }
+        }
+
+        .work__item__text {
+          margin-bottom: 2rem;
+          font-size: 1.4rem;
+          font-weight: 300;
+        }
+
+        .work__item__casestudyBtn {
+          padding-bottom: 0.1rem;
+          font-size: 1.4rem;
+          font-weight: 300;
+        }
+      }
+    }
+
+    @media screen and (max-width: 769px) {
+      grid-template-columns: repeat(1, 1fr);
+
+      .work__item {
+        padding: 5vw 0;
+        border: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+
+  .work__github {
+    display: block;
+    width: fit-content;
+    margin: 5vw auto 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}

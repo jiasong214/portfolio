@@ -1,0 +1,12 @@
+@import "./global.scss";
+
+.copyright {
+  width: $width;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 3rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+@import "./global.scss";
+
+.casestudyImg-wrapper {
+  width: 100vw;
+  padding-top: 6rem;
+
+  &:last-child {
+    padding-bottom: 6rem;
+  }
+
+  .casestudyImg-container {
+    width: $width;
+    max-width: $max-width;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 2rem;
+
+    img,
+    video {
+      display: block;
+      width: 100%;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

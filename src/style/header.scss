@@ -1,0 +1,30 @@
+@import "./global.scss";
+
+.header {
+  // width: calc(100vw - 10vw * 2);
+  width: $width;
+  max-width: $max-width;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+
+  .header__logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      display: block;
+      margin-left: 20px;
+      font-size: 1.8rem;
+    }
+  }
+}

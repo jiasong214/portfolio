@@ -1,0 +1,11 @@
+@import "./global.scss";
+
+.main {
+  width: 100%;
+
+  .main-innerbox {
+    width: $width;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+}

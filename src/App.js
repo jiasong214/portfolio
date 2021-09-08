@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+import { Route, Switch } from "react-router";
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import Header from "./Components/Header";
+import Main from "./Pages/Main";
+import Casestudy from "./Pages/Casestudy";
 
 function App() {
+  const location = useLocation();
+  const [isLoaded, setIsLoaded] = useState("");
+
+  // scroll initialize with page transition
+  useEffect(() => {
+    if(location.pathname !== "/"){
+      window.scrollTo(0, 0);
+    }
+  }, [location.pathname]);
+
+  // first rendering
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded("is-loaded");
+    }, 500);
+  },[])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div id="container" className={isLoaded}>
+      <Header />
+      <TransitionGroup>
+        <CSSTransition
+          key={location.pathname}
+          timeout={{ enter: 800, exit: 800 }}
+          classNames="page"
+          onExit={node => {
+            node.style.position = "fixed";
+            node.style.top = -1 * window.scrollY + "px";
+          }}
         >
-          Learn React
-        </a>
-      </header>
+
+          <Switch location={location} key={location.pathname}>
+            <Route exact path="/" component={Main} />
+            <Route exact path="/casestudy/:id" component={Casestudy} />
+          </Switch>
+
+        </CSSTransition>
+      </TransitionGroup>
     </div>
   );
 }
 
-export default App;
+export default React.memo(App);
