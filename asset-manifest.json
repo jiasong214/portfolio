@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/jiasong.me/static/css/main.59915159.chunk.css",
+    "main.js": "/jiasong.me/static/js/main.cccd30eb.chunk.js",
+    "main.js.map": "/jiasong.me/static/js/main.cccd30eb.chunk.js.map",
+    "runtime-main.js": "/jiasong.me/static/js/runtime-main.fec0f4c4.js",
+    "runtime-main.js.map": "/jiasong.me/static/js/runtime-main.fec0f4c4.js.map",
+    "static/js/2.f4382475.chunk.js": "/jiasong.me/static/js/2.f4382475.chunk.js",
+    "static/js/2.f4382475.chunk.js.map": "/jiasong.me/static/js/2.f4382475.chunk.js.map",
+    "index.html": "/jiasong.me/index.html",
+    "static/css/main.59915159.chunk.css.map": "/jiasong.me/static/css/main.59915159.chunk.css.map",
+    "static/js/2.f4382475.chunk.js.LICENSE.txt": "/jiasong.me/static/js/2.f4382475.chunk.js.LICENSE.txt",
+    "static/media/casestudyIntro.scss": "/jiasong.me/static/media/bg.b72421dc.jpg",
+    "static/media/mock-up.9186e1a0.jpeg": "/jiasong.me/static/media/mock-up.9186e1a0.jpeg",
+    "static/media/spotify_screenshot1.3936077a.png": "/jiasong.me/static/media/spotify_screenshot1.3936077a.png",
+    "static/media/spotify_screenshot2.bd693c4e.png": "/jiasong.me/static/media/spotify_screenshot2.bd693c4e.png",
+    "static/media/violin-store_mobile1.8b0b3d1f.png": "/jiasong.me/static/media/violin-store_mobile1.8b0b3d1f.png",
+    "static/media/violin-store_mobile2.8b26572d.png": "/jiasong.me/static/media/violin-store_mobile2.8b26572d.png",
+    "static/media/violin-store_mobile3.f7357d32.png": "/jiasong.me/static/media/violin-store_mobile3.f7357d32.png",
+    "static/media/violin-store_video.b537287b.mp4": "/jiasong.me/static/media/violin-store_video.b537287b.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fec0f4c4.js",
+    "static/js/2.f4382475.chunk.js",
+    "static/css/main.59915159.chunk.css",
+    "static/js/main.cccd30eb.chunk.js"
+  ]
+}
