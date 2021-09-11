@@ -21,21 +21,27 @@
       border-top: 1px solid rgba(0, 0, 0, 0.1);
       border-right: 1px solid rgba(0, 0, 0, 0.1);
       padding: 30px 5vw;
-
       display: flex;
       flex-direction: column;
-      gap: 2rem;
 
       &:nth-child(1),
       &:nth-child(3) {
         padding-left: 0;
         flex-direction: column-reverse;
+
+        > *:last-child {
+          margin-bottom: 2rem;
+        }
       }
 
       &:nth-child(2),
       &:nth-child(4) {
         padding-right: 0;
         border-right: 0;
+
+        > *:first-child {
+          margin-bottom: 2rem;
+        }
       }
 
       .work__item__img-wrapper {
@@ -68,10 +74,10 @@
         .work__item__links {
           margin-bottom: 3rem;
           display: flex;
-          gap: 1rem;
 
           a {
             display: block;
+            margin-right: 1rem;
             font-size: 12px;
             color: rgba(0, 0, 0, 0.3);
             text-transform: uppercase;

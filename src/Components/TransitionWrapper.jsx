@@ -1,5 +1,7 @@
 import React from 'react';
 import '../style/transitionWrapper.scss';
 
-const TransitionWrapper = () => <div className="transitionWrapper" />;
+const TransitionWrapper = ({ready}) => (
+  <div className="transitionWrapper" data-active={ready} />
+);
 export default React.memo(TransitionWrapper);

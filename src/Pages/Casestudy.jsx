@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from "react-router-dom";
 import CasestudyIntro from '../Components/CasestudyIntro';
 import CasestudyText from '../Components/CasestudyText';
@@ -10,15 +10,20 @@ import '../style/casestudy.scss';
 
 const Casestudy = () => {  
   const { id } = useParams();
+  const [ready, setReady] = useState(false);
+
   const data = works.filter((work) => work.id === id)[0];
+
+  // to remove loading transition wrapper after all intro images are ready
+  const handleReady = () => {
+    setTimeout(setReady(true), 0);
+  }
 
   return (
     <section className="casestudy">
       <CasestudyIntro 
-        title={data.title}
-        tech={data.tech}
-        demo={data.demo}
-        github={data.github}
+        data={data}
+        onReady={handleReady}
       />
       <div className="casestudy__text-container">
         {data.text.map((item, index) => (
@@ -38,7 +43,7 @@ const Casestudy = () => {
         ))}
       </div>
       <CasestudyControl />
-      <TransitionWrapper />
+      <TransitionWrapper ready={ready} />
     </section>
   )
 }

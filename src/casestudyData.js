@@ -1,18 +1,21 @@
-import spotify_img1 from './assets/spotify_screenshot1.png';
-import spotify_img2 from './assets/spotify_screenshot2.png';
+import spotify_img1 from 'assets/spotify_screenshot1.png';
+import spotify_img2 from 'assets/spotify_screenshot2.png';
 
-import violinStore_img1 from './assets/violin-store_mobile1.png';
-import violinStore_img2 from './assets/violin-store_mobile2.png';
-import violinStore_img3 from './assets/violin-store_mobile3.png';
-import violinStore_video1 from './assets/violin-store_video.mp4';
+import violinStore_img1 from 'assets/violin-store_mobile1.png';
+import violinStore_img2 from 'assets/violin-store_mobile2.png';
+import violinStore_img3 from 'assets/violin-store_mobile3.png';
+import violinStore_video1 from 'assets/violin-store_video.mp4';
 
-import test from './assets/mock-up.jpeg';
+import bg from 'assets/bg.jpg'
+
+import test from 'assets/mock-up.jpeg';
 
 const works = [
   {
     id: "planner",
     title: "Planner",
     thumbnail: test,
+    background: bg,
     casestudy: "/casestudy/planner",
     tech: "Node.js, React, Redux-Saga, Meterial UI",
     demo: "jiasong214.github.io/planner-client",
@@ -47,6 +50,7 @@ const works = [
     id: "blog",
     title: "Blog",
     thumbnail: test,
+    background: bg,
     casestudy: "/casestudy/blog",
     tech: "Node.js, React, Sass",
     demo: "jiasong214.github.io/blog-client",
@@ -76,6 +80,7 @@ const works = [
     id: "spotify-clone",
     title: "Spotify Clone",
     thumbnail: test,
+    background: bg,
     casestudy: "/casestudy/violin-store",
     tech: "",
     demo: "jiasong214.github.io/music-app",
@@ -103,6 +108,7 @@ const works = [
     id: "violin-store",
     title: "Violin Store",
     thumbnail: test,
+    background: bg,
     casestudy: "/casestudy/violin-store",
     tech: "ES6, Sass",
     demo: "jiasong214.github.io/violin-store",

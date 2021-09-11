@@ -5,13 +5,12 @@
   height: 100vh;
   background: black;
   position: fixed;
-  top: -100%;
+  top: -120%;
   left: 0;
   z-index: 1000;
-  transform: translateY(-20%);
-  transition: transform 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-
   will-change: transform;
+  transform: translateY(0%);
+  transition: transform 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .page-enter .transitionWrapper {
@@ -19,11 +18,16 @@
 }
 
 .page-enter-active .transitionWrapper {
-  transform: translateY(100%);
+  transform: translateY(120%);
 }
 
 .page-enter-done .transitionWrapper {
-  transform: translateY(0%);
+  &[data-active="true"] {
+    transform: translateY(0%);
+  }
+  &[data-active="false"] {
+    transform: translateY(120%);
+  }
 }
 
 .page-exit .transitionWrapper {
@@ -31,5 +35,5 @@
 }
 
 .page-exit-active .transitionWrapper {
-  transform: translateY(100%);
+  transform: translateY(120%);
 }

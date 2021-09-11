@@ -1,4 +1,5 @@
 import React from 'react';
+import ProgressiveImage from 'react-progressive-image';
 import '../style/casestudyImg.scss';
 
 const CasestudyImg = ({contents, background="white"}) => {
@@ -7,18 +8,26 @@ const CasestudyImg = ({contents, background="white"}) => {
       className="casestudyImg-wrapper"
       style={{backgroundColor: `${background}`}}
     >
+
       <div className="casestudyImg-container">
         {contents.map((content, index) => (
           content.img ? 
-            <img
+            <ProgressiveImage
               key={index}
-              src={content.img} 
-              alt="screenshot"  
-            />
+              src=''
+              placeholder=''
+            >
+              {(src) =>
+                <img
+                  src={content.img} 
+                  alt="screenshot"  
+                />
+              }
+            </ProgressiveImage>
           : <video
               key={index}
               src={content.video}
-              autoPlay
+              autoPlay={window.innerWidth > 480 ? true : false}
               muted
               loop
             />
