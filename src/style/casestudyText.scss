@@ -3,22 +3,15 @@
 .casestudyText {
   width: $width;
   max-width: $max-width;
-  margin: 12vw auto;
+  margin: 10vw auto;
 
   .casestudyText-innerbox {
-    width: 50%;
     max-width: 769px;
-    margin: 0 auto;
-
-    @media screen and (max-width: 769px) {
-      width: 100%;
-    }
   }
 
   .casestudyText__title {
     margin-bottom: 3rem;
     font-size: 3.2rem;
-    // text-align: center;
   }
 
   p {

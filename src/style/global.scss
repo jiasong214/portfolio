@@ -55,32 +55,13 @@ h4 {
 
 // variables
 $width: 80vw;
-$max-width: 1200px;
+$max-width: 1025px;
 
-// first-randering transition
 #container {
-  > * {
-    opacity: 0;
-    transition: 1.5s 0.5s;
-  }
-
-  &.is-loaded > * {
-    opacity: 1;
-  }
-}
-
-// page transition
-.casestudy,
-.main {
-  position: absolute;
-  background: white;
-
-  &.page-enter-done {
-    z-index: 2;
-  }
-
-  &.page-exit {
-    z-index: 1;
+  > .main {
+    width: $width;
+    max-width: $max-width;
+    margin: 0 auto;
   }
 }
 
