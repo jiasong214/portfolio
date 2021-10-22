@@ -1,15 +1,15 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import '../style/casestudyControl.scss';
+import '../style/projectControl.scss';
 
-const CasestudyControl = () => {
+const ProjectControl = () => {
   const history = useHistory();
 
   const handleBack = () => history.goBack();
   const handleTop = () => window.scrollTo(0,0);
 
   return (
-    <menu className="casestudyControl">
+    <menu className="projectControl">
       <button onClick={handleBack}>
         <span className="hover-button">
           &larr; Back to home
@@ -24,4 +24,4 @@ const CasestudyControl = () => {
   )
 }
 
-export default React.memo(CasestudyControl);
+export default React.memo(ProjectControl);

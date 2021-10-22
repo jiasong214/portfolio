@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import works from '../casestudyData';
+import { motion } from 'framer-motion';
+import works from '../projectData';
 import '../style/work.scss';
 
 const Work = () => {
@@ -11,12 +12,14 @@ const Work = () => {
 
         {works.map((work, index) => (
           <li className="work__item" key={index}>
-            <Link to={work.casestudy}>
+            <Link to={work.project}>
               <div className="work__item__img-wrapper">
-                <img
+                <motion.img
                   className="work__item__img" 
                   src={work.thumbnail}
-                  alt={`${work.title} thumbnail`} 
+                  alt={`${work.title} thumbnail`}
+                  whileHover={{scale: 1.03}}
+                  transition={{duration: 1, ease: [0.43, 0.13, 0.23, 0.96]}}
                 />
               </div>
             </Link>
@@ -42,10 +45,10 @@ const Work = () => {
               </div>
               <p className="work__item__text">{work.summary}</p>
               <Link 
-                to={work.casestudy} 
-                className="work__item__casestudyBtn hover-button"
+                to={work.project}
+                className="work__item__projectBtn hover-button"
               >
-                See Casestudy
+                View Project
               </Link>
             </div>
           </li>

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <Link className="header__logo" to="/">
-        OOO
+        JIA
       </Link>
     </header>
   )

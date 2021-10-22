@@ -2,7 +2,7 @@
 
 .work {
   .work__title {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     font-size: 3.6rem;
     font-weight: 600;
     text-align: center;
@@ -46,20 +46,15 @@
 
       .work__item__img-wrapper {
         width: 100%;
-        // height: 35vw;
         height: fit-content;
         overflow: hidden;
-        position: relative;
         background: black;
 
         .work__item__img {
           display: block;
           width: 100%;
           height: 100%;
-          // position: absolute;
-          // bottom: 0;
-          // left: 0;
-          // will-change: transform;
+          will-change: transform;
         }
       }
 
@@ -72,7 +67,7 @@
         }
 
         .work__item__links {
-          margin-bottom: 3rem;
+          margin-bottom: 2rem;
           display: flex;
 
           a {
@@ -90,7 +85,7 @@
           font-weight: 300;
         }
 
-        .work__item__casestudyBtn {
+        .work__item__projectBtn {
           padding-bottom: 0.1rem;
           font-size: 1.4rem;
           font-weight: 300;

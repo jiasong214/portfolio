@@ -1,0 +1,40 @@
+@import "./global.scss";
+
+.projectIntro {
+  padding-top: 20vh;
+
+  .projectIntro__title {
+    margin-bottom: 6rem;
+    font-size: 6.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+    @media screen and (max-width: 480px) {
+      font-size: 6rem;
+    }
+  }
+
+  .projectIntro__info {
+    margin-bottom: 6rem;
+
+    p {
+      margin-bottom: 1rem;
+      display: grid;
+      grid-template-columns: 65px 1fr;
+      align-items: center;
+
+      span {
+        display: block;
+        font-size: 1.4rem;
+        font-weight: 300;
+
+        &:first-child {
+          font-size: 1.2rem;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: 1.2px;
+        }
+      }
+    }
+  }
+}

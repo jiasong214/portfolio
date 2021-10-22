@@ -28,7 +28,7 @@ address {
 }
 
 /* common */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap");
 
@@ -37,7 +37,7 @@ address {
 html {
   // font-family: "Inter", sans-serif;
   font-family: "Open Sans", sans-serif;
-  font-size: 11px;
+  font-size: 11.6px;
   scroll-behavior: smooth;
 }
 
@@ -54,15 +54,14 @@ h4 {
 }
 
 // variables
-$width: 80vw;
-$max-width: 1025px;
+$width: 84vw;
+// $max-width: 1025px;
+$max-width: 1120px;
 
 #container {
-  > .main {
-    width: $width;
-    max-width: $max-width;
-    margin: 0 auto;
-  }
+  width: $width;
+  max-width: $max-width;
+  margin: 0 auto;
 }
 
 // global effect
