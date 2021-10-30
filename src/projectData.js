@@ -1,9 +1,19 @@
+// import planner_thumbnail from 'assets/thumbnail/planner_thumbnail.png';
+import planner_thumbnail from 'assets/thumbnail/planner_thumbnail1.png';
+import planner_1 from "assets/screenshot/planner_pc1.png";
+import planner_2 from "assets/screenshot/planner_pc2.png";
+import planner_3 from "assets/screenshot/planner_pc3.png";
+import planner_4 from "assets/screenshot/planner_pc4.png";
+import planner_mobile1 from 'assets/screenshot/planner_mobile1.png';
+import planner_mobile2 from 'assets/screenshot/planner_mobile2.png';
+import planner_mobile3 from 'assets/screenshot/planner_mobile3.png';
+
 import spotify_thumbnail from 'assets/thumbnail/spotify_thumbnail.png';
 import spotify_img1 from 'assets/screenshot/spotify1.png';
 import spotify_img2 from 'assets/screenshot/spotify2.png';
 import spotify_img3 from 'assets/screenshot/spotify3.png';
 
-import violinStore_thumbnail from 'assets/thumbnail/violin-store-thumbnail2.png';
+import violinStore_thumbnail from 'assets/thumbnail/violin-store-thumbnail.png';
 import violinStore_1 from "assets/screenshot/violin-store1.png";
 import violinStore_2 from "assets/screenshot/violin-store2.png";
 import violinStore_3 from "assets/screenshot/violin-store3.png";
@@ -28,7 +38,7 @@ const works = [
   {
     id: "planner",
     title: "Planner",
-    thumbnail: test,
+    thumbnail: planner_thumbnail,
     project: "/project/planner",
     stack: "Node.js | React | Redux-Saga | Material UI",
     stackIcon: [
@@ -44,12 +54,15 @@ const works = [
     summary: "Personal planner to help with my busy schedule, built with Express.js, mySQL, React, Redux, and SASS",
     screenshot: {
       mobile: [
-
+        planner_mobile1,
+        planner_mobile2,
+        planner_mobile3,
       ],
       pc: [
-        spotify_img1,
-        spotify_img2,
-        spotify_img3
+        planner_1,
+        planner_2,
+        planner_3,
+        planner_4,
       ]
     },
     text: [

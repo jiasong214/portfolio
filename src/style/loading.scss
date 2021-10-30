@@ -1,0 +1,63 @@
+@import "./global.scss";
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  &.false {
+    transform: translateY(-100%);
+    transition: 0.6s 1s;
+  }
+
+  .loading__title {
+    width: $width;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 30px 0 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 65vh;
+    opacity: 1;
+
+    .loading__title__icon {
+      width: 18px;
+      height: 18px;
+      background: white;
+      border-radius: 50%;
+      margin-right: 10px;
+
+      animation: blink 1s 1s infinite;
+    }
+
+    .loading__title__text {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1rem;
+      color: white;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    @keyframes blink {
+      0% {
+        background: white;
+      }
+      30% {
+        background: black;
+      }
+      60% {
+        background: white;
+      }
+    }
+  }
+
+  &.false .loading__title {
+    opacity: 0;
+    transition: 1s;
+  }
+}

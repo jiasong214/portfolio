@@ -74,6 +74,7 @@
             display: block;
             margin-right: 1rem;
             font-size: 12px;
+            font-weight: 400;
             color: rgba(0, 0, 0, 0.3);
             text-transform: uppercase;
           }
@@ -82,13 +83,11 @@
         .work__item__text {
           margin-bottom: 2rem;
           font-size: 1.4rem;
-          font-weight: 300;
         }
 
         .work__item__projectBtn {
           padding-bottom: 0.1rem;
           font-size: 1.4rem;
-          font-weight: 300;
         }
       }
     }

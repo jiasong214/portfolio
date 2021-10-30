@@ -65,8 +65,11 @@ const Project = () => {
         </div>
       }
       <div className="project__imgs">
-        <img className="img" src={data.screenshot.pc[1]} alt="" />
-        <img className="img" src={data.screenshot.pc[2]} alt="" />
+        {data.screenshot.pc.map((img, id) => {
+          if(id !== 0) {
+            return <img key={id} className="img" src={img} alt="" />
+          }
+        })}
       </div>
       <ProjectControl />
     </motion.section>

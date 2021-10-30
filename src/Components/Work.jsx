@@ -32,7 +32,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Demo
+                  LINK
                 </a>
                 <a
                   className="hover-button"
