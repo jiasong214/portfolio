@@ -1,5 +1,4 @@
-// import planner_thumbnail from 'assets/thumbnail/planner_thumbnail.png';
-import planner_thumbnail from 'assets/thumbnail/planner_thumbnail1.png';
+import planner_thumbnail from 'assets/thumbnail/planner_thumbnail2.png';
 import planner_1 from "assets/screenshot/planner_pc1.png";
 import planner_2 from "assets/screenshot/planner_pc2.png";
 import planner_3 from "assets/screenshot/planner_pc3.png";
@@ -7,6 +6,15 @@ import planner_4 from "assets/screenshot/planner_pc4.png";
 import planner_mobile1 from 'assets/screenshot/planner_mobile1.png';
 import planner_mobile2 from 'assets/screenshot/planner_mobile2.png';
 import planner_mobile3 from 'assets/screenshot/planner_mobile3.png';
+
+import blog_thumbnail from 'assets/thumbnail/blog_thumbnail1.png';
+import blog_1 from "assets/screenshot/blog_pc1.png";
+import blog_2 from "assets/screenshot/blog_pc2.png";
+import blog_3 from "assets/screenshot/blog_pc3.png";
+import blog_4 from "assets/screenshot/blog_pc4.png";
+import blog_mobile1 from 'assets/screenshot/blog_mobile1.png';
+import blog_mobile2 from 'assets/screenshot/blog_mobile2.png';
+import blog_mobile3 from 'assets/screenshot/blog_mobile3.png';
 
 import spotify_thumbnail from 'assets/thumbnail/spotify_thumbnail.png';
 import spotify_img1 from 'assets/screenshot/spotify1.png';
@@ -20,8 +28,6 @@ import violinStore_3 from "assets/screenshot/violin-store3.png";
 import violinStore_mobile1 from 'assets/screenshot/violin-store_mobile1.png';
 import violinStore_mobile2 from 'assets/screenshot/violin-store_mobile2.png';
 import violinStore_mobile3 from 'assets/screenshot/violin-store_mobile3.png';
-import violinStore_video1 from 'assets/screenshot/violin-store_video.mp4';
-
 
 import javascript from 'assets/stack_icon/javascript.png';
 import sass from 'assets/stack_icon/sass.png';
@@ -31,8 +37,6 @@ import redux from 'assets/stack_icon/redux.png';
 import reduxSaga from 'assets/stack_icon/redux-saga.png';
 import node from 'assets/stack_icon/node.png';
 import mysql from 'assets/stack_icon/mysql.png';
-
-import test from 'assets/mock-up.jpeg';
 
 const works = [
   {
@@ -67,7 +71,6 @@ const works = [
     },
     text: [
       {
-        title: "About",
         para: [
           "Planner is a personal scheduler web-app in which users can sign-in and start managing their schedules. They can do things like creating to-dos with information such as date, priority, and project, as well as create their own projects in order to categorize their to-dos.",
           "Planner will present the user with what they need to do according to the date and projects."
@@ -92,7 +95,7 @@ const works = [
   {
     id: "blog",
     title: "Blog",
-    thumbnail: test,
+    thumbnail: blog_thumbnail,
     project: "/project/blog",
     stack: "Node.js | React | Sass",
     stackIcon: [
@@ -105,17 +108,19 @@ const works = [
     summary: "Personal developer blog page in which I detail, through blog posts, the process of building the page, as well as the difficulties I faced and how I overcame them.",
     screenshot: {
       mobile: [
-
+        blog_mobile1,
+        blog_mobile2,
+        blog_mobile3,
       ],
       pc: [
-        spotify_img1,
-        spotify_img2,
-        spotify_img3
+        blog_1,
+        blog_2,
+        blog_3,
+        blog_4
       ]
     },
     text: [
       {
-        title: "About",
         para: [
           "This is a personal blog website that I can login and write posts. I can write or edit a post with a markdown text-editor, and readers can write comments. When users visit the blog page, posts are loaded using infinite scroll.",
 
@@ -163,7 +168,6 @@ const works = [
     },
     text: [
       {
-        title: "About",
         para: [
           "Spotify clone is a spotify-like web page that is built using the  spotify API. With this website, users can log-in and use the webpage just like the real Spotify app. They can check their playlist, like songs or albums, and play songs for 30 sec (limitation set by Spotify API)."
         ]
@@ -211,7 +215,6 @@ const works = [
     },
     text: [
       {
-        // title: "About",
         para: [
           "The Violin store is a vanilla javascript website whose main focus is interactive animations. I built this page after being inspired by Apple's product page. Basically, I calculated the position and ratio of every object requiring animation depending on the section's scroll height, and animated accordingly as the user scrolls. Additionally, I implemented a shopping cart function so the user can add a violin to the cart.",
         ]

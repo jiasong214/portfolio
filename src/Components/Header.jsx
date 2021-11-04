@@ -3,16 +3,20 @@ import { Link } from 'react-router-dom';
 import '../style/header.scss';
 
 const Header = () => {
-  const [time, setTime] = useState();
-  
+  const [time, setTime] = useState(getTime());
+
+  function getTime() {
+    let date = new Date();
+    let hour = date.getHours() >= 10 ? date.getHours() : `0${date.getHours()}`;
+    let min = date.getMinutes() >= 10 ? date.getMinutes() : `0${date.getMinutes()}`;
+
+    return `${hour}:${min}`;
+  }
+
   useEffect(() => {
-    let createClock = setInterval(() => {
-      let date = new Date();
-      let hour = date.getHours() >= 10 ? date.getHours() : `0${date.getHours()}`;
-      let min = date.getMinutes() >= 10 ? date.getMinutes() : `0${date.getMinutes()}`;
-  
-      setTime(`${hour}:${min}`);
-    }, 1000);
+    let createClock = setInterval(() => 
+      setTime(getTime())
+    , 10000);
 
     return () => clearInterval(createClock);
   }, []);

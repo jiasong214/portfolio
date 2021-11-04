@@ -5,18 +5,20 @@ const Skills = () => {
   return (
     <section className="skills">
       <h1 className="skills__title">My Skills</h1>
-      <p className="skills__text">Throughout my time self-learning I have developed strong abilities in various techs.<br></br> I am always ready to learn.</p>
+      <p className="skills__text">
+        Throughout my time self-learning I have developed strong abilities in various techs.
+        <br /> I am always ready to learn.
+      </p>
       <ul className="skills__list">
         <li>
           <span>HTML5</span>
           <span>CSS3</span>
           <span>Sass</span>
-          <span>Javascript</span>
+          <span>ES6</span>
         </li>
         <li>
           <span>React</span>
           <span>Redux</span>
-          <span>Redux-thunk</span>
           <span>Styled-Component</span>
         </li>
         <li>

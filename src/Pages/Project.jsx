@@ -15,7 +15,7 @@ const Project = () => {
 
   useEffect(() => {
     setTimeout(() => setShow(true), 300);
-  },[]);
+  }, []);
 
   return show && (
     <motion.section 
@@ -26,28 +26,38 @@ const Project = () => {
       transition={{ duration: 0.3 }}
     >
       <Header />
+
+      {/* project title and summary */}
       <ProjectIntro data={data} />
 
+      {/* project introduction */}
       <div className="project__about text">
         <p>{data.text[0].para}</p>
       </div>
 
+      {/* main screenshot */}
       <img
         className="project__introImg img"
         src={data.screenshot.pc[0]}
-        alt="" 
+        alt="screenshot" 
       />
 
+      {/* project purpose */}
       <div className="project__purpose text">
         <h2>{data.text[1].title}</h2>
         {data.text[1].para.map((text, id) => <p key={id}>{text}</p>)}
       </div>
 
+      {/* project stack */}
       <div className="project__stack">
         <div className="project__stack__icon">
           <div>
             {data.stackIcon.map((icon, id) => (
-              <img key={id} className="img" src={icon} alt="" />
+              <img 
+                key={id} 
+                className="img" 
+                src={icon} 
+                alt="stack icon" />
             ))}
           </div>
         </div>
@@ -57,20 +67,30 @@ const Project = () => {
         </div>
       </div>
 
+      {/* mobile screenshot */}
       {data.screenshot.mobile.length !== 0 &&
         <div className="project__imgs --mobile">
-          <img className="img" src={data.screenshot.mobile[0]} alt="" />
-          <img className="img" src={data.screenshot.mobile[1]} alt="" />
-          <img className="img" src={data.screenshot.mobile[2]} alt="" />
+          {data.screenshot.mobile.map((img, id) => (
+            <img 
+              key={id} 
+              className="img" 
+              src={img} 
+              alt="mobile screenshot" />
+          ))}
         </div>
       }
+
+      {/* desktop screenshot */}
       <div className="project__imgs">
-        {data.screenshot.pc.map((img, id) => {
-          if(id !== 0) {
-            return <img key={id} className="img" src={img} alt="" />
-          }
-        })}
+        {data.screenshot.pc.filter((e, index) => index !== 0).map((img, id) => (
+          <img
+          key={id} 
+          className="img" 
+          src={img} 
+          alt="desktop screenshot" />
+        ))}
       </div>
+
       <ProjectControl />
     </motion.section>
   )

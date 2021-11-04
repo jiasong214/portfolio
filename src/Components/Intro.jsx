@@ -25,10 +25,20 @@ const Intro = () => {
           I am a self-taught developer with a passion for building responsive web apps, and a strong focus on UI/UX. 
           <br />Currently seeking my first developer role whilst continuing to learn and grow.
         </p>
-        <p className="intro__email hover-button">
+        <a 
+          className="intro__email hover-button" 
+          href="mailto:jiasong214@gmail.com"
+        >
           jiasong214@gmail.com
-        </p>
-        <p className="intro__linkedIn hover-button">LinkedIn</p>
+        </a>
+        <a 
+          className="intro__linkedIn hover-button" 
+          href="https://www.linkedin.com/in/jiasong214/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
       </div>
     </section>
   )
