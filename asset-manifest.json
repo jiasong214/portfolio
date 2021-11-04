@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b34131cf.chunk.css",
-    "main.js": "/static/js/main.2b97e1db.chunk.js",
-    "main.js.map": "/static/js/main.2b97e1db.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.931e61bc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.931e61bc.js.map",
-    "static/js/2.7b374aee.chunk.js": "/static/js/2.7b374aee.chunk.js",
-    "static/js/2.7b374aee.chunk.js.map": "/static/js/2.7b374aee.chunk.js.map",
+    "main.css": "/static/css/main.3db0976e.chunk.css",
+    "main.js": "/static/js/main.cb73e984.chunk.js",
+    "main.js.map": "/static/js/main.cb73e984.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
+    "static/js/2.84af079b.chunk.js": "/static/js/2.84af079b.chunk.js",
+    "static/js/2.84af079b.chunk.js.map": "/static/js/2.84af079b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b34131cf.chunk.css.map": "/static/css/main.b34131cf.chunk.css.map",
-    "static/js/2.7b374aee.chunk.js.LICENSE.txt": "/static/js/2.7b374aee.chunk.js.LICENSE.txt",
-    "static/media/mock-up.9186e1a0.jpeg": "/static/media/mock-up.9186e1a0.jpeg",
+    "static/css/main.3db0976e.chunk.css.map": "/static/css/main.3db0976e.chunk.css.map",
+    "static/js/2.84af079b.chunk.js.LICENSE.txt": "/static/js/2.84af079b.chunk.js.LICENSE.txt",
+    "static/media/blog_mobile1.a424f397.png": "/static/media/blog_mobile1.a424f397.png",
+    "static/media/blog_mobile2.5a5bc4a7.png": "/static/media/blog_mobile2.5a5bc4a7.png",
+    "static/media/blog_mobile3.4e949c6c.png": "/static/media/blog_mobile3.4e949c6c.png",
+    "static/media/blog_pc1.fa994729.png": "/static/media/blog_pc1.fa994729.png",
+    "static/media/blog_pc2.c277d63a.png": "/static/media/blog_pc2.c277d63a.png",
+    "static/media/blog_pc3.92d1fd80.png": "/static/media/blog_pc3.92d1fd80.png",
+    "static/media/blog_pc4.c3acd606.png": "/static/media/blog_pc4.c3acd606.png",
+    "static/media/blog_thumbnail1.41245001.png": "/static/media/blog_thumbnail1.41245001.png",
     "static/media/planner_mobile1.6373253a.png": "/static/media/planner_mobile1.6373253a.png",
     "static/media/planner_mobile2.cb9cd989.png": "/static/media/planner_mobile2.cb9cd989.png",
     "static/media/planner_mobile3.c3691e08.png": "/static/media/planner_mobile3.c3691e08.png",
@@ -18,7 +25,7 @@
     "static/media/planner_pc2.57d8a02e.png": "/static/media/planner_pc2.57d8a02e.png",
     "static/media/planner_pc3.09699607.png": "/static/media/planner_pc3.09699607.png",
     "static/media/planner_pc4.1fc290a3.png": "/static/media/planner_pc4.1fc290a3.png",
-    "static/media/planner_thumbnail1.32095d20.png": "/static/media/planner_thumbnail1.32095d20.png",
+    "static/media/planner_thumbnail2.a5e4ce0d.png": "/static/media/planner_thumbnail2.a5e4ce0d.png",
     "static/media/spotify1.3936077a.png": "/static/media/spotify1.3936077a.png",
     "static/media/spotify2.bd693c4e.png": "/static/media/spotify2.bd693c4e.png",
     "static/media/spotify3.20308e60.png": "/static/media/spotify3.20308e60.png",
@@ -29,13 +36,12 @@
     "static/media/violin-store3.a347aadb.png": "/static/media/violin-store3.a347aadb.png",
     "static/media/violin-store_mobile1.8b0b3d1f.png": "/static/media/violin-store_mobile1.8b0b3d1f.png",
     "static/media/violin-store_mobile2.8b26572d.png": "/static/media/violin-store_mobile2.8b26572d.png",
-    "static/media/violin-store_mobile3.f7357d32.png": "/static/media/violin-store_mobile3.f7357d32.png",
-    "static/media/violin-store_video.b537287b.mp4": "/static/media/violin-store_video.b537287b.mp4"
+    "static/media/violin-store_mobile3.f7357d32.png": "/static/media/violin-store_mobile3.f7357d32.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.931e61bc.js",
-    "static/js/2.7b374aee.chunk.js",
-    "static/css/main.b34131cf.chunk.css",
-    "static/js/main.2b97e1db.chunk.js"
+    "static/js/runtime-main.f027f2bf.js",
+    "static/js/2.84af079b.chunk.js",
+    "static/css/main.3db0976e.chunk.css",
+    "static/js/main.cb73e984.chunk.js"
   ]
 }
