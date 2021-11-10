@@ -1,4 +1,4 @@
-import planner_thumbnail from 'assets/thumbnail/planner_thumbnail2.png';
+import planner_thumbnail from 'assets/thumbnail/planner_thumbnail.png';
 import planner_1 from "assets/screenshot/planner_pc1.png";
 import planner_2 from "assets/screenshot/planner_pc2.png";
 import planner_3 from "assets/screenshot/planner_pc3.png";
@@ -7,7 +7,7 @@ import planner_mobile1 from 'assets/screenshot/planner_mobile1.png';
 import planner_mobile2 from 'assets/screenshot/planner_mobile2.png';
 import planner_mobile3 from 'assets/screenshot/planner_mobile3.png';
 
-import blog_thumbnail from 'assets/thumbnail/blog_thumbnail1.png';
+import blog_thumbnail from 'assets/thumbnail/blog_thumbnail.png';
 import blog_1 from "assets/screenshot/blog_pc1.png";
 import blog_2 from "assets/screenshot/blog_pc2.png";
 import blog_3 from "assets/screenshot/blog_pc3.png";
@@ -138,7 +138,7 @@ const works = [
         title: "Web Stack",
         para: [
           "The back-end is built using Express.js and mySQL as the database. In order to write better, more manageable code, I adopted an MVC pattern.",
-          "The Front-end is built using React. To create the markdown editor for writing posts, I used the react-markdown library, and for posting comments I used the library github-?. I decided to host the server on Heroku."
+          "The Front-end is built using React. To create the markdown editor for writing posts, I used the react-markdown library, and for posting comments I used the utterances. I decided to host the server on Heroku."
         ]
       },
     ]
