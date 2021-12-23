@@ -6,7 +6,7 @@ import Skills from 'Components/Skills';
 import Work from '../Components/Work';
 import Contact from '../Components/Contact';
 import Line from '../Components/Line';
-import Copyright from '../Components/copyright';
+import Copyright from '../Components/Copyright';
 
 const Main = () => {
   return (

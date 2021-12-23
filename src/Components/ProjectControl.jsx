@@ -1,11 +1,11 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../style/projectControl.scss';
 
 const ProjectControl = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
-  const handleBack = () => history.goBack();
+  const handleBack = () => navigate(-1);
   const handleTop = () => window.scrollTo(0,0);
 
   return (

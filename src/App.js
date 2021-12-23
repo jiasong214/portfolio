@@ -1,6 +1,5 @@
 import React, { useEffect, useState, Suspense } from "react";
-import { useLocation } from "react-router-dom";
-import { Route, Switch } from "react-router";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Loading from "Pages/Loading";
 // import Main from "./Pages/Main";
@@ -10,7 +9,6 @@ const Project = React.lazy(() => import("./Pages/Project"));
 
 
 function App() {
-  const location = useLocation();
   const [loading, setLoading] = useState(true);
 
   // first rendering
@@ -24,14 +22,15 @@ function App() {
   return (
     <>
       <Loading loading={loading}/>
-
       <Suspense fallback={<div />}>
         <div id="container" className={loading.toString()}>
           <AnimatePresence initial={false} exitBeforeEnter>
-            <Switch location={location} key={location.pathname}>
-              <Route exact path="/" component={Main} />
-              <Route exact path="/project/:id" component={Project} />
-            </Switch>
+            <Router>
+              <Routes>
+                <Route exact path="/" element={<Main />} />
+                <Route exact path="/project/:id" element={<Project />} />
+              </Routes>
+            </Router>
           </AnimatePresence>
         </div>
       </Suspense>

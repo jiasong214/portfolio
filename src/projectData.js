@@ -148,7 +148,7 @@ const works = [
     title: "Spotify Clone",
     thumbnail: spotify_thumbnail,
     project: "/project/spotify-clone",
-    stack: "React | Redux | Redux-thunk | Sass",
+    stack: "React | Redux | Sass",
     stackIcon: [
       react,
       redux
