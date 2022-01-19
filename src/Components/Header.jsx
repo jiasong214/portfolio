@@ -27,7 +27,7 @@ const Header = () => {
         <div className="header__title__icon" />
         <h1 className="header__title__text">
           JIA SONG<br />
-          PORTFOLIO 2021
+          PORTFOLIO 2022
         </h1>
       </Link>
       <p className="header__location">

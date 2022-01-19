@@ -4,7 +4,7 @@ import '../style/copyright.scss';
 const Copyright = () => {
   return (
     <footer className="copyright">
-      &copy; Jia Song 2021年
+      &copy; Jia Song 2022年
     </footer>
   )
 }

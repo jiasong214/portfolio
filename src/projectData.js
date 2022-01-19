@@ -53,7 +53,7 @@ const works = [
       node,
       mysql,
     ],
-    demo: "https://jiasong214.github.io/planner-client",
+    // demo: "https://jiasong214.github.io/planner-client",
     github: "https://github.com/jiasong214/planner-client",
     summary: "Personal planner to help with my busy schedule, built with Express.js, mySQL, React, Redux, and SASS",
     screenshot: {
@@ -72,6 +72,7 @@ const works = [
     text: [
       {
         para: [
+          "🛠🛠🛠Live website is currently unavailable.🛠🛠🛠    ",
           "Planner is a personal scheduler web-app in which users can sign-in and start managing their schedules. They can do things like creating to-dos with information such as date, priority, and project, as well as create their own projects in order to categorize their to-dos.",
           "Planner will present the user with what they need to do according to the date and projects."
         ]

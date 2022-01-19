@@ -7,7 +7,7 @@ const Loading = ({loading}) => {
         <div className="loading__title__icon"/>
         <p className="loading__title__text">
           JIA SONG
-          <br/> PORTFOLIO 2021
+          <br/> PORTFOLIO 2022
         </p>
       </h1>
     </div>
