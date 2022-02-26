@@ -22,13 +22,13 @@ const Skills = () => {
           <span>Styled-Component</span>
         </li>
         <li>
-          <span>Express.js</span>
+          <span>Node.js</span>
           <span>Ruby on Rails</span>
           <span>Rest API</span>
           <span>MySQL</span>
         </li>
         <li>
-          <span>Github</span>
+          <span>Git</span>
           <span>Adobe Photoshop</span>
         </li>
       </ul>
