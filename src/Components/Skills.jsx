@@ -23,6 +23,7 @@ const Skills = () => {
         </li>
         <li>
           <span>Express.js</span>
+          <span>Ruby on Rails</span>
           <span>Rest API</span>
           <span>MySQL</span>
         </li>

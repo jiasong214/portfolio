@@ -66,19 +66,26 @@
           line-height: 1;
         }
 
-        .work__item__links {
+        .work__item__stack {
           margin-bottom: 2rem;
-          display: flex;
-
-          a {
-            display: block;
-            margin-right: 1rem;
-            font-size: 12px;
-            font-weight: 400;
-            color: rgba(0, 0, 0, 0.3);
-            text-transform: uppercase;
-          }
+          font-size: 1.2rem;
+          color: rgba(0, 0, 0, 0.3);
+          font-weight: 400;
         }
+
+        // .work__item__links {
+        //   margin-bottom: 2rem;
+        //   display: flex;
+
+        //   a {
+        //     display: block;
+        //     margin-right: 1rem;
+        //     font-size: 12px;
+        //     font-weight: 400;
+        //     color: rgba(0, 0, 0, 0.3);
+        //     text-transform: uppercase;
+        //   }
+        // }
 
         .work__item__text {
           margin-bottom: 2rem;

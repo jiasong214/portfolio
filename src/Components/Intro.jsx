@@ -17,7 +17,8 @@ const Intro = () => {
       <h1 className="intro__title">
         <p className="intro__title__name">Jia Song</p>
         <p className="intro__title__position">
-          {mobile ? "Frontend dev" : "Frontend developer"}
+          {/* {mobile ? "Frontend dev" : "Frontend developer"} */}
+          {mobile ? "Full-stack dev" : "Full-stack developer"}
         </p>
       </h1>
       <div className="intro__innerbox">
