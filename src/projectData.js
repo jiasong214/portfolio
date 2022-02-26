@@ -118,7 +118,7 @@ const slack = {
   ],
   demo: "https://jia-slack-clone.herokuapp.com/",
   github: "https://github.com/jiasong214/slack-clone",
-  summary: "Slack clone built with the purpose of learning Ruby on Rails.",
+  summary: "Slack clone built with the purpose of learning Ruby on Rails. Has most of the functionality of slack, including user login and signup, creating, joining and inviting to channels, and direct messaging.",
   screenshot: {
     mobile: [],
     pc: [

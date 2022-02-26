@@ -26,39 +26,23 @@ const Work = () => {
             <div className="work__item__text-wrapper">
               <h2 className="work__item__title">{work.title}</h2>
               <p className="work__item__stack">{work.stack}</p>
-              {/* <div className="work__item__links">
+              <p className="work__item__text">{work.summary}</p>
+              <div className="work__item__links">
+                <Link 
+                  to={work.project}
+                  className="hover-button"
+                >
+                  Read more
+                </Link>
                 <a
                   className="hover-button"
                   href={work.demo}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Link
+                  Demo
                 </a>
-                <a
-                  className="hover-button"
-                  href={work.github}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-              </div> */}
-              <p className="work__item__text">{work.summary}</p>
-              <Link 
-                to={work.project}
-                className="work__item__projectBtn hover-button"
-              >
-                Read more
-              </Link>
-              <a
-                className="hover-button"
-                href={work.demo}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Demo
-              </a>
+              </div>
             </div>
           </li>
         ))}

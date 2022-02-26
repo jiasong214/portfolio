@@ -17,12 +17,21 @@
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
+    @media (prefers-color-scheme: dark) {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
     .work__item {
       border-top: 1px solid rgba(0, 0, 0, 0.1);
       border-right: 1px solid rgba(0, 0, 0, 0.1);
       padding: 30px 5vw;
       display: flex;
       flex-direction: column;
+
+      @media (prefers-color-scheme: dark) {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+      }
 
       &:nth-child(1),
       &:nth-child(3) {
@@ -71,30 +80,27 @@
           font-size: 1.2rem;
           color: rgba(0, 0, 0, 0.3);
           font-weight: 400;
+
+          @media (prefers-color-scheme: dark) {
+            color: rgba(255, 255, 255, 0.3);
+          }
         }
-
-        // .work__item__links {
-        //   margin-bottom: 2rem;
-        //   display: flex;
-
-        //   a {
-        //     display: block;
-        //     margin-right: 1rem;
-        //     font-size: 12px;
-        //     font-weight: 400;
-        //     color: rgba(0, 0, 0, 0.3);
-        //     text-transform: uppercase;
-        //   }
-        // }
 
         .work__item__text {
           margin-bottom: 2rem;
           font-size: 1.4rem;
         }
 
-        .work__item__projectBtn {
-          padding-bottom: 0.1rem;
-          font-size: 1.4rem;
+        .work__item__links {
+          margin-bottom: 2rem;
+          display: flex;
+          gap: 15px;
+
+          > * {
+            display: block;
+            padding-bottom: 0.1rem;
+            font-size: 1.4rem;
+          }
         }
       }
     }
@@ -119,5 +125,9 @@
     border: 1px solid black;
     font-size: 1.2rem;
     font-weight: 400;
+
+    @media (prefers-color-scheme: dark) {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
   }
 }

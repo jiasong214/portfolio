@@ -12,4 +12,8 @@
     border: none;
     font-size: 1.6rem;
   }
+
+  @media (prefers-color-scheme: dark) {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
 }

@@ -11,8 +11,6 @@
   transform: translateX(-50%);
   z-index: 98;
 
-  // border-bottom: 1px solid black;
-
   .header__title {
     width: fit-content;
     display: flex;
@@ -24,6 +22,10 @@
       background: black;
       border-radius: 50%;
       margin-right: 10px;
+
+      @media (prefers-color-scheme: dark) {
+        background: white;
+      }
     }
   }
 

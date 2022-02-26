@@ -33,6 +33,10 @@
         border: 1px solid black;
         border-radius: 30px;
         font-size: 1.4rem;
+
+        @media (prefers-color-scheme: dark) {
+          border: 1px solid rgba(255, 255, 255, 0.5);
+        }
       }
 
       @media screen and (max-width: 440px) {

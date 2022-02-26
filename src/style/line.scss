@@ -4,4 +4,8 @@
   min-height: 200px;
   margin: 10vh auto;
   background: black;
+
+  @media (prefers-color-scheme: dark) {
+    background: white !important;
+  }
 }
