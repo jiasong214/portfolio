@@ -1,19 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.54e5110c.css",
-    "main.js": "/static/js/main.a81dcbeb.js",
-    "static/css/315.7fa5c147.chunk.css": "/static/css/315.7fa5c147.chunk.css",
-    "static/js/315.2fc64fd9.chunk.js": "/static/js/315.2fc64fd9.chunk.js",
+    "main.js": "/static/js/main.9ca034c6.js",
+    "static/css/315.632c6488.chunk.css": "/static/css/315.632c6488.chunk.css",
+    "static/js/315.4ea5b67e.chunk.js": "/static/js/315.4ea5b67e.chunk.js",
     "static/css/551.a9252a1c.chunk.css": "/static/css/551.a9252a1c.chunk.css",
     "static/js/551.f11e3981.chunk.js": "/static/js/551.f11e3981.chunk.js",
     "static/js/618.40ad70a3.chunk.js": "/static/js/618.40ad70a3.chunk.js",
-    "static/js/546.63e72afd.chunk.js": "/static/js/546.63e72afd.chunk.js",
+    "static/js/546.34e81a5e.chunk.js": "/static/js/546.34e81a5e.chunk.js",
+    "static/media/slack_thumbnail.png": "/static/media/slack_thumbnail.086eee56c92f6c8ec740.png",
+    "static/media/slack7.png": "/static/media/slack7.57d9316ed862276d79ae.png",
     "static/media/spotify1.png": "/static/media/spotify1.c6ae72e97fa225676e51.png",
+    "static/media/slack4.png": "/static/media/slack4.32cdee63ed79ad5db19e.png",
+    "static/media/slack8.png": "/static/media/slack8.335a337aacec60fb0ef9.png",
+    "static/media/slack2.png": "/static/media/slack2.6e1940aa7957da321293.png",
+    "static/media/slack5.png": "/static/media/slack5.f19abc36afe62165a686.png",
+    "static/media/slack6.png": "/static/media/slack6.51ecea46395035754a1e.png",
     "static/media/blog_thumbnail.png": "/static/media/blog_thumbnail.80db585d351f0ec3bd6b.png",
     "static/media/violin-store-thumbnail.png": "/static/media/violin-store-thumbnail.7eb04f71ceabe1b8a683.png",
     "static/media/violin-store1.png": "/static/media/violin-store1.e4654f5f7bbb55baac8d.png",
     "static/media/violin-store2.png": "/static/media/violin-store2.0b3d623138662541592d.png",
+    "static/media/slack3.png": "/static/media/slack3.b278a6ee4b61cc32dc73.png",
     "static/media/blog_pc4.png": "/static/media/blog_pc4.48198bb27934692d1d02.png",
+    "static/media/slack1.png": "/static/media/slack1.036f455469300d7c06d8.png",
     "static/media/spotify_thumbnail.png": "/static/media/spotify_thumbnail.be2b76e4e6dd28f8c493.png",
     "static/media/spotify3.png": "/static/media/spotify3.aa57115789f296509cb7.png",
     "static/media/spotify2.png": "/static/media/spotify2.ec6e2a1ba81ce423dbef.png",
@@ -35,16 +44,16 @@
     "static/media/planner_pc2.png": "/static/media/planner_pc2.a8025c59e873cddd8e72.png",
     "index.html": "/index.html",
     "main.54e5110c.css.map": "/static/css/main.54e5110c.css.map",
-    "main.a81dcbeb.js.map": "/static/js/main.a81dcbeb.js.map",
-    "315.7fa5c147.chunk.css.map": "/static/css/315.7fa5c147.chunk.css.map",
-    "315.2fc64fd9.chunk.js.map": "/static/js/315.2fc64fd9.chunk.js.map",
+    "main.9ca034c6.js.map": "/static/js/main.9ca034c6.js.map",
+    "315.632c6488.chunk.css.map": "/static/css/315.632c6488.chunk.css.map",
+    "315.4ea5b67e.chunk.js.map": "/static/js/315.4ea5b67e.chunk.js.map",
     "551.a9252a1c.chunk.css.map": "/static/css/551.a9252a1c.chunk.css.map",
     "551.f11e3981.chunk.js.map": "/static/js/551.f11e3981.chunk.js.map",
     "618.40ad70a3.chunk.js.map": "/static/js/618.40ad70a3.chunk.js.map",
-    "546.63e72afd.chunk.js.map": "/static/js/546.63e72afd.chunk.js.map"
+    "546.34e81a5e.chunk.js.map": "/static/js/546.34e81a5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54e5110c.css",
-    "static/js/main.a81dcbeb.js"
+    "static/js/main.9ca034c6.js"
   ]
 }
