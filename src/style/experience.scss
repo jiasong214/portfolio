@@ -1,0 +1,64 @@
+@import "./global.scss";
+
+.experience {
+  width: fit-content;
+  max-width: 920px;
+  margin: 0 auto;
+
+  .experience__title {
+    margin-bottom: 4rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-align: center;
+
+    @media screen and (max-width: 769px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 64px;
+
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+
+    @media screen and (max-width: 769px) {
+      display: block;
+    }
+  }
+
+  .experience__period {
+    font-size: 1.2rem;
+
+    @media screen and (max-width: 769px) {
+      display: block;
+      margin-bottom: 16px;
+      text-decoration: underline;
+    }
+  }
+
+  .experience__company {
+    margin-bottom: 8px;
+    font-size: 2.8rem;
+    line-height: 0.8;
+  }
+
+  .experience__position {
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+  }
+
+  .experience__summary {
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+  }
+
+  .experience__tech {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}

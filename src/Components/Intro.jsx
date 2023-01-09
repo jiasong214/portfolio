@@ -18,13 +18,13 @@ const Intro = () => {
         <p className="intro__title__name">Jia Song</p>
         <p className="intro__title__position">
           {/* {mobile ? "Frontend dev" : "Frontend developer"} */}
-          {mobile ? "Full-stack dev" : "Full-stack developer"}
+          {mobile ? "Software eng" : "Software engineer"}
         </p>
       </h1>
       <div className="intro__innerbox">
         <p className="intro__text">
-          I am a self-taught developer with a passion for building responsive web apps, and a strong focus on UI/UX. 
-          <br />Currently seeking my first developer role whilst continuing to learn and grow.
+          I am a junior software engineer with strong experience building responsive web apps with a high focus on UI/UX. 
+          <br />Currently working at Style arcade, continuing to learn and grow.
         </p>
         <a 
           className="intro__email hover-button" 

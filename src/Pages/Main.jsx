@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Header from 'Components/Header';
-import Intro from '../Components/Intro';
-import Skills from 'Components/Skills';
-import Work from '../Components/Work';
-import Contact from '../Components/Contact';
-import Line from '../Components/Line';
-import Copyright from '../Components/Copyright';
+import Header from 'components/Header';
+import Intro from 'components/Intro';
+import Skills from 'components/Skills';
+import Work from 'components/Work';
+import Contact from 'components/Contact';
+import Line from 'components/Line';
+import Copyright from 'components/Copyright';
+import Experience from 'components/Experience';
 
 const Main = () => {
   return (
@@ -19,6 +20,8 @@ const Main = () => {
     >
       <Header />
       <Intro />
+      <Line />
+      <Experience />
       <Line />
       <Skills />
       <Line />

@@ -6,7 +6,7 @@ const Skills = () => {
     <section className="skills">
       <h1 className="skills__title">My Skills</h1>
       <p className="skills__text">
-        Throughout my time self-learning I have developed strong abilities in various techs.
+        Throughout my study and commercial experience I have developed strong abilities in various techs.
         <br /> I am always ready to learn.
       </p>
       <ul className="skills__list">
@@ -17,9 +17,9 @@ const Skills = () => {
           <span>ES6</span>
         </li>
         <li>
+          <span>Typescript</span>
           <span>React</span>
           <span>Redux</span>
-          <span>Styled-Component</span>
         </li>
         <li>
           <span>Node.js</span>

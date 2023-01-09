@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
 import { motion } from 'framer-motion';
-import Header from 'Components/Header';
-import ProjectIntro from '../Components/ProjectIntro';
-import ProjectControl from '../Components/ProjectControl';
+import Header from 'components/Header';
+import ProjectIntro from 'components/ProjectIntro';
+import ProjectControl from 'components/ProjectControl';
 import works from '../projectData.js';
 import '../style/project.scss';
 

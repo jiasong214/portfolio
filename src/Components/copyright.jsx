@@ -2,9 +2,10 @@ import React from 'react';
 import '../style/copyright.scss';
 
 const Copyright = () => {
+  const year = new Date().getFullYear()
   return (
     <footer className="copyright">
-      &copy; Jia Song 2022年
+      &copy; Jia Song {year}
     </footer>
   )
 }
