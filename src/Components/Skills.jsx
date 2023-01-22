@@ -13,23 +13,22 @@ const Skills = () => {
         <li>
           <span>HTML5</span>
           <span>CSS3</span>
-          <span>Sass</span>
-          <span>ES6</span>
+          <span>SASS</span>
+          <span>JS</span>
         </li>
         <li>
           <span>Typescript</span>
           <span>React</span>
           <span>Redux</span>
+          <span>MobX</span>
         </li>
         <li>
           <span>Node.js</span>
-          <span>Ruby on Rails</span>
           <span>Rest API</span>
           <span>MySQL</span>
         </li>
         <li>
           <span>Git</span>
-          <span>Adobe Photoshop</span>
         </li>
       </ul>
     </section>

@@ -38,10 +38,10 @@ const Experience = () => {
               Front-end developer | Freelancing
             </p>
             <p className='experience__summary'>
-              Rebuilt a client's website that was originally made with a CMS (Webflow). Worked in a team of 3 engineers, and I was solely in charge of the frontend. Used React with Typescript, and Remix for SSR. Recreated the original website design using SASS and implemented the interactive animations. Worked on it to completion for a period of approximately 60 hours.
+              Worked as a front-end developer on a team of three engineers to rebuild a website that was originally built on a CMS platform. Used React with Typescript, and Remix for SSR. I created all components, replicated the original website design using SASS, and implemented interactive animations using custom hooks. The front-end side of the project was completed within approximately 60 hours.
             </p>
             <p className='experience__tech'>
-              React.js | Remix | SASS
+              Typescript | React.js | Remix | SASS
             </p>
           </div>
         </li>

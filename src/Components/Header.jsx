@@ -15,7 +15,7 @@ const Header = () => {
         </h1>
       </Link>
       <p className="header__location">
-        BASED IN SYDNEY,<br />
+        BASED IN SYDNEY<br />
         AUSTRALIA
       </p>
     </header>

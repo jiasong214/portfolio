@@ -7,7 +7,7 @@ import '../style/work.scss';
 const Work = () => {
   return (
     <section className="work">
-      <h1 className="work__title">Selected Works</h1>
+      <h1 className="work__title">Personal Project</h1>
       <ul className="work__list">
 
         {works.map((work, index) => (
