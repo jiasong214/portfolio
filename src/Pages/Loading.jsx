@@ -1,19 +1,17 @@
-import '../style/loading.scss';
+import "../style/loading.scss";
 
-const Loading = ({loading}) => {
-  const year = new Date().getFullYear()
-  
+const Loading = ({ loading }) => {
   return (
     <div className={`loading ${loading}`}>
       <h1 className="loading__title">
-        <div className="loading__title__icon"/>
+        <div className="loading__title__icon" />
         <p className="loading__title__text">
           JIA SONG
-          <br/> PORTFOLIO {year}
+          <br /> PORTFOLIO 2022
         </p>
       </h1>
     </div>
-  )
-}
+  );
+};
 
 export default Loading;

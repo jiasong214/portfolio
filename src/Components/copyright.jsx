@@ -1,13 +1,8 @@
-import React from 'react';
-import '../style/copyright.scss';
+import React from "react";
+import "../style/copyright.scss";
 
 const Copyright = () => {
-  const year = new Date().getFullYear()
-  return (
-    <footer className="copyright">
-      &copy; Jia Song {year}
-    </footer>
-  )
-}
+  return <footer className="copyright">&copy; Jia Song 2022</footer>;
+};
 
 export default React.memo(Copyright);

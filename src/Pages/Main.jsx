@@ -1,17 +1,17 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import Header from 'components/Header';
-import Intro from 'components/Intro';
-import Skills from 'components/Skills';
-import Work from 'components/Work';
-import Contact from 'components/Contact';
-import Line from 'components/Line';
-import Copyright from 'components/Copyright';
-import Experience from 'components/Experience';
+import React from "react";
+import { motion } from "framer-motion";
+import Header from "Components/Header";
+import Intro from "Components/Intro";
+import Skills from "Components/Skills";
+import Work from "Components/Work";
+import Contact from "Components/Contact";
+import Line from "Components/Line";
+import Copyright from "Components/Copyright";
+import Experience from "Components/Experience";
 
 const Main = () => {
   return (
-    <motion.main 
+    <motion.main
       className="main"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -30,7 +30,7 @@ const Main = () => {
       <Contact />
       <Copyright />
     </motion.main>
-  )
-}
+  );
+};
 
 export default Main;
